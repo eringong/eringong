@@ -5,6 +5,7 @@ from twisted.web import static, server
 import cyclone.web
 import cyclone.httpserver
 
+from cyclone.web import StaticFileHandler
 
 try:
     _port = int(os.environ["PORT"])
@@ -24,7 +25,7 @@ class Application(cyclone.web.Application):
         handlers = [
            (r"/", DefaultHandler),
 #		   (r"/(.*?)", OpenTemplateHandler),
-		   (r"/(.*?)", web.StaticFileHandler),
+		   (r"/(.*?)", StaticFileHandler),
          ]
         
         settings = dict(
