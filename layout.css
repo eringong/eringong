@@ -1,0 +1,611 @@
+body {
+	background: #ffffff;
+	width:950px;
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	}
+
+p{
+	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
+}
+
+h1{
+	font: normal 32px/38px Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	color:#4A4A4A;
+}
+
+h2{
+	font: normal 24px/28px Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	color:#4A4A4A;
+	font-weight:normal;
+}
+
+h3{
+	font: normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	margin: 4px 4px 4px 4px;
+	color:#4A4A4A;
+	font-weight:normal;
+}
+
+a{
+	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	color:#6E943D;
+	text-decoration:none;
+}
+
+	
+/*#########################header###################*/
+
+#head-container{
+}
+
+#header
+{
+	margin: 0 auto;
+	width: 950px;
+	padding-top: 20px;
+}
+
+#logo{
+	float:left;
+	display:block;
+	width: 190px;
+	height: 70px;
+	padding-left:50px;
+	padding-top:30px;
+	background: #D6FAFF;
+}
+
+#navigation-container
+{
+	float: right;
+	width: 710px;
+	height:100px;
+	margin-left:0px;
+	background: #D6FAFF;
+}
+
+#navigation
+{
+	float: right;
+	padding-top:50px;
+	padding-right:50px;
+	margin: 0 auto;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a:link{
+	display: block;
+	float: left;
+	padding: 5px 25px;
+	color:#4A4A4A;
+	text-decoration: none;
+	border-top:solid transparent 2px;
+}
+
+
+#navigation li a:visited{
+	display: block;
+	float: left;
+	padding: 5px 25px;
+	color:#4A4A4A;
+	text-decoration: none;
+	border-top:solid transparent 2px;
+}
+
+#navigation li.on a:link{
+	display: block;
+	float: left;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: #6E943D;
+}
+
+#navigation li.on a:visited{
+	display: block;
+	float: left;
+	padding: 5px 25px;
+	color: #6E943D;
+	text-decoration: none;
+	border-top:solid #4C5383 1px;
+}
+
+#navigation li a:hover {
+	background: #C7F6FC;
+}
+
+#intro{
+	margin: 0 auto;
+	padding: 95px 22px 40px 24px;
+}
+
+#content-container
+{
+	float: left;
+	width: 950px;
+	color: #000;
+}
+
+#content-main
+{
+	float: right;
+	width: 550px;
+	margin-bottom:30px;
+	padding-top:10px
+}
+
+#content-main p {
+	font-size:14px/16px;
+	color: #4A4A4A;
+}
+
+#content{
+	clear: left;
+	float: right;
+	width: 550px;
+	display: inline;
+}
+
+
+#content h2 {
+margin: 0;
+margin-top:10px;
+}
+
+#content ul{
+	margin-left:40px;
+	padding:0px 0px 15px 0px;
+}
+
+#content-index{
+
+}
+
+#content-index ul li{
+	padding:0 4px 10px 0px;
+	font:normal 16px/18px Georgia, "Times New Roman", Times, serif;
+	color: #4A4A4A;
+	list-style-type: square;
+	float:left;
+	width:100%;
+}
+
+
+/*------------------------------Sidebar---------------------------------------*/
+
+#content-sidebar
+{
+	float: left;
+	display: inline;
+	width: 400px;
+	padding-top:20px;
+}
+
+#content-sidebar h2 {
+	margin: 0;
+	color:#4A4A4A;
+	font-weight:normal;
+}
+
+#content-sidebar p {
+	font-size:14px/16px;
+	color: #4A4A4A;
+}
+
+#content-sidebar-index
+{
+	padding-top:60px;
+	padding-left:50px;
+}
+
+#content-sidebar-contact
+{
+	padding-left: 50px;
+	padding-bottom: 140px;
+}
+
+#content-sidebar-portfolio
+{
+	padding-top:30px;
+}
+
+
+/*----------accordion-------*/
+#wrapper {
+	margin:10px;
+}
+
+#wrapper h2{
+	font: normal 24px/28px Georgia, "Times New Roman", Times, serif;
+}
+
+#wrapper p{
+	margin:0;
+	font-size:14px/16px;
+	color: #4A4A4A;
+}
+
+.date {
+	font-style:italic;
+}
+
+.lead {
+	font-weight:bold;
+}
+
+#wrapper ul{
+	margin:0px;
+	margin-left:40px;
+}
+
+#wrapper ul li{
+	padding:0 4px;
+	font:normal 16px/18px Georgia, "Times New Roman", Times, serif;
+	color: #4A4A4A;
+	list-style-type: square;
+	float:left;
+	width:100%;
+}
+
+.accordionButton {	
+	width: 690px;
+	float: left;
+	background: #E4E6EF;
+	border-bottom: 1px solid #f3f3f6;
+	cursor: pointer;
+	}
+ 
+.accordionContent {	
+	width: 690px;
+	float: left;
+	display: none;
+	}
+
+
+/*-----------footer---------*/
+#footer-container
+{
+	clear: left;
+	border-top:solid #4A4A4A 2px;
+}
+
+#footNav
+{
+	margin: 0 auto;
+	float: left;
+	width: 715px;
+	text-align: left;
+	padding: 10px;
+	height: 1%;
+}
+
+#footNav ul{
+	margin:0px;
+}
+
+#footNav ul li{
+	padding:0 4px;
+	float:left;
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+	color:#898fb8;
+	list-style-type: none;
+	display: inline;
+}
+
+#footNav ul li.active{
+	color:#6E943D;
+	text-decoration:none;
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+}
+#footNav ul li a{
+	font:normal 12px/15px Georgia, "Times New Roman", Times, serif;
+	color:#898fb8;
+	text-decoration:none;
+}
+
+#footNav ul li a:hover{
+	color:#4C5383;
+	text-decoration:underline;
+}
+
+#credits {
+	margin: 0 auto;
+	float: left;
+	padding-left: 55px;
+	width: 680px;
+	text-align: left;
+}
+
+#credits p{
+	font:normal 10px/15px Georgia, "Times New Roman", Times, serif;
+	color:#898fb8; 
+	text-decoration:none;
+	display:block;
+}
+
+#credits p span{
+	font-size:11px;
+	display:block;
+}
+
+
+
+/*-------------------Portfolio---------------------*/
+
+#portfolio-container{
+	clear: left;
+	float: right;
+	width: 900px;
+	display: inline;
+}
+
+#portfolio-container p{
+	margin:3px;
+	font-size:14px/16px;
+	color: #4A4A4A;
+}
+
+#icon{
+	float:left;
+	display:block;
+	width: 50px;
+	height: 50px;
+	margin:5px;
+	border:1px solid black;
+}
+
+#icon img {
+	-moz-border-radius:3px; /* Firefox */
+	border-radius:3px;
+	-moz-box-shadow: 1px 1px 1px #4A4A4A; /* Firefox */
+	-webkit-box-shadow: 1px 1px 1px #4A4A4A; /* Safari and Chrome */
+	box-shadow: 1px 1px 1px #4A4A4A;
+}
+
+
+/*----------------Go Button------------------------*/
+a.button{
+	background: #97D448;
+	-moz-border-radius:3px; /* Firefox */
+	border-radius:3px;
+	color: #ffffff;
+	width:190px;
+	height:30px;
+	display:block;
+	font-weight:bold;
+	line-height:30px;
+	margin-bottom:14px;
+	text-decoration:none;
+	text-align:center;
+	float:right;
+}
+
+a:hover.button{
+	background: #8AC242;	
+}
+
+#download-container{
+width: 490px;
+float:right;
+}
+
+.download{
+	background: #97D448;
+	-moz-border-radius:3px; /* Firefox */
+	border-radius:3px;
+	color: #ffffff;
+	width:210px;
+	height:30px;
+	display:block;
+	font-weight:bold;
+	line-height:30px;
+	margin-bottom:14px;
+	text-decoration:none;
+	text-align:center;
+	float:right;
+}
+
+a:hover.download{
+	background: #8AC242;
+	text-decoration:none;	
+}
+
+/*########################Slideshow#######################*/
+div.sscontent {
+	/* The display of sscontent is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: right;
+	width: 500px;
+}
+div.sscontent a, div.ssnavigation a {
+	text-decoration: none;
+	color:#4A4A4A;
+}
+div.sscontent a:focus, div.sscontent a:hover, div.sscontent a:active {
+	text-decoration: underline;
+}
+
+div.controls {
+	margin-top: 5px;
+	height: 23px;
+}
+div.controls a {
+	padding: 5px;
+}
+
+/*div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+*/
+
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 280px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 500px;
+	height: 280px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+
+div.slideshow {
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block;
+	width: 500px;
+	height: 280px; /* This should be set to be at least the height of the largest image in the slideshow */
+	line-height: 280px; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 1px solid #4A4A4A;
+}
+
+div.caption-container {
+	position: relative;
+	clear: left;
+	height: 350px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 500px;
+	top: 0;
+	left: 0;
+}
+div.caption {
+	padding: 12px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.2em;
+	color:#6E943D;
+}
+div.image-desc {
+	line-height: .3em;
+	color:#6E943D;
+}
+
+
+div.ssnavigation {
+	/* The ssnavigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 5px 5px 0;
+	list-style-type: none;
+}
+
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #898fb8;
+}
+ul.thumbs li.selected a.thumb {
+	background: #898fb8;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.pagination {
+	clear: both;
+}
+div.ssnavigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.ssnavigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+div.captionAll{
+	width:500px;
+	float:left;
+}
+
+div.captionLeft {
+	float: left;
+	width: 70px;
+	padding-right:10px;
+}
+
+div.captionLeft p {
+	text-align:left;
+	font-weight:bold;
+}
+
+div.captionRight {
+	float: right;
+	width: 419px;
+	border-left:1px solid #6E943D;
+}
+
+div.captionRight p {
+	text-align:left;
+	padding-left:10px;
+}
+
