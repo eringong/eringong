@@ -26,6 +26,7 @@ class Application(cyclone.web.Application):
            (r"/", DefaultHandler),
 #		   (r"/(.*?)", OpenTemplateHandler, {}),
 		   (r"/(.*)", StaticFileHandler, {"path":"./"}),
+		   (r"/images/(.*)", StaticFileHandler, {"path":"./images"}),
          ]
         
         settings = dict(
