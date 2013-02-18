@@ -23,8 +23,9 @@ class Application(cyclone.web.Application):
     def __init__(self):
         handlers = [
            (r"/", DefaultHandler),
-		   (r"/(.*?)", OpenTemplateHandler),
-        ]
+#		   (r"/(.*?)", OpenTemplateHandler),
+		   (r"/(.*?)", web.StaticFileHandler),
+         ]
         
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "html"),
