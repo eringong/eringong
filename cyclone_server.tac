@@ -11,16 +11,19 @@ try:
 except:
     _port = 80
 
+class DefaultHandler(cyclone.web.RequestHandler):
+    def get(self):
+        self.render('index.html')
 
 class OpenTemplateHandler(cyclone.web.RequestHandler):
     def get(self, path):
-        self.render(path+'.html')
+        self.render(path)
 
 class Application(cyclone.web.Application):
     def __init__(self):
         handlers = [
-#            (r"/", HtmlHandler),
-			(r"/(.*?)", OpenTemplateHandler),
+           (r"/", DefaultHandler),
+		   (r"/(.*?)", OpenTemplateHandler),
         ]
         
         settings = dict(
