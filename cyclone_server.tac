@@ -25,7 +25,7 @@ class Application(cyclone.web.Application):
         handlers = [
            (r"/", DefaultHandler),
 #		   (r"/(.*?)", OpenTemplateHandler, {}),
-		   (r"/images/(.*)", StaticFileHandler, {"path":"./html/images"}),
+#		   (r"/images/(.*)", StaticFileHandler, {"path":"./html/images"}),
 		   (r"/(.*)", StaticFileHandler, {"path":"./html"}),
          ]
         
