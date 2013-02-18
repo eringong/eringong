@@ -29,7 +29,8 @@ class Application(cyclone.web.Application):
         settings = dict(
             template_path=os.path.join(os.path.dirname(__file__), "html"),
             static_path=os.path.join(os.path.dirname(__file__), "html"),
-            debug=True,
+#            debug=True,
+            debug=False,
             autoescape=None,
             )
 
