@@ -30,6 +30,14 @@ h3{
 	font-weight:normal;
 }
 
+h4{
+	font: normal 16px/20px Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	margin: 4px 4px 4px 4px;
+	color:#4A4A4A;
+	font-weight:normal;
+}
+
 a{
 	font:normal 16px/20px Georgia, "Times New Roman", Times, serif;
 	color:#6E943D;
@@ -210,6 +218,13 @@ margin-top:10px;
 {
 	padding-top:60px;
 	padding-left:50px;
+	padding-right:50px;
+}
+
+#content-sidebar-about
+{
+	padding-left:50px;
+	padding-right:50px;
 }
 
 #content-sidebar-contact
